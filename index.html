@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salah App</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include Papa Parse for CSV parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+  <!-- Removed Hijri Date library -->
+</head>
+<body>
+  <div id="app">
+    <h1>Salah Times</h1>
+    <div id="date-info">
+      <p id="gregorian-date"></p>
+      <!-- Removed Islamic date display -->
+      <p id="moon-phase"></p>
+    </div>
+
+    <div id="city-selection">
+      <label for="city">Enter your city:</label>
+      <input type="text" id="city" placeholder="e.g., London">
+      <button id="set-city">Set City</button>
+    </div>
+
+    <div id="navigation">
+      <button id="prev-day">Previous Day</button>
+      <button id="next-day">Next Day</button>
+    </div>
+
+    <div id="prayer-times">
+      <!-- Prayer times will be displayed here -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

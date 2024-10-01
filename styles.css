@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  #app {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #date-info, #city-selection, #navigation, #prayer-times {
+    margin-bottom: 20px;
+  }
+  
+  #city-selection input {
+    margin-left: 10px;
+  }
+  
+  #navigation button {
+    margin-right: 10px;
+  }
+  
+  #prayer-times h2, #prayer-times h3 {
+    margin-top: 0;
+  }
+  
+  #prayer-times ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #prayer-times li {
+    margin-bottom: 5px;
+  }
+  
